@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Parkinsans:wght@300..800&display=swap');
+body{
+    background: black;
+}
+.block { 
+    border: 1px solid black;
+    padding: 10px;
+    /* padding: 10px; */
+    font-family: "Parkinsans", sans-serif;
+    background: gray;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: rgb(83, 83, 183); */
+    background: gray;
+}
+
+.line {
+    border-bottom: 1px solid black;
+}

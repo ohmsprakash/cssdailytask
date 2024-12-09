@@ -1,0 +1,388 @@
+body{
+    background: rgb(40, 42, 53);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+}
+
+.php {
+    background-color: rgb(255, 192, 199);
+    width: 35%;
+    margin: 40px;
+    padding:  40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+
+/* button {
+    background-color: #1d1f28;
+    color: white;
+    width: 30%;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    width: 200px;
+} */
+a{
+    background-color: #1d1f28;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    width: 150px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+p {
+    color: #3a3a3a;
+    font-size: large;
+   
+}
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+.jQuery{
+    background-color: rgb(255, 244, 163);
+    width: 35%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.java {
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.ccc {
+    background-color: rgb(217, 238, 225);
+    width: 35%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.w3{
+    background-color: rgb(150, 212, 212);
+    width: 35%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.bootstrap {
+    background-color: rgb(231, 233, 235);
+    width: 35%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.c {
+    background-color: rgb(255, 192, 199);
+    width: 35%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px; 
+    height: 70px;
+}
+.cc{
+    background-color: rgb(255, 244, 163);
+    width: 35%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    height: 70px; 
+}
+
+  .c a {
+    background-color: rgb(255, 192, 199);
+    color: black;
+ } 
+
+ .cc a {
+    background-color: rgb(255, 244, 163);
+    color: black;
+ }
+
+.r {
+    background-color: rgb(255, 244, 163);
+    width: 12%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    height: 70px; 
+}
+
+.r a {
+    background-color: rgb(255, 244, 163);
+    color: black;
+}
+
+.kotlin {
+    background-color: rgb(217, 238, 225);
+    width: 12%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    height: 70px; 
+}
+
+.kotlin a {
+    background-color: rgb(217, 238, 225);
+    color: black;
+}
+
+.nodejs {
+    background-color: rgb(150, 212, 212);
+    width: 12%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    height: 70px; 
+}
+
+.nodejs a {
+    background-color: rgb(150, 212, 212);
+    color: black;
+}
+
+.reactjs {
+    background-color: rgb(255, 192, 199);
+    width: 12%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    height: 70px; 
+}
+
+.reactjs a {
+    background-color: rgb(255, 192, 199);
+    color: black;
+}
+
+.json {
+    
+        background-color: rgb(255, 244, 163);
+        width: 12%;
+        margin: 40px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border-radius: 10px;
+        height: 70px; 
+}
+
+.json a {
+    background-color: rgb(255, 244, 163);
+    color: black;
+}
+
+.vue {
+    background-color: rgb(243, 236, 234);
+    width: 12%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    height: 70px; 
+}
+
+.vue a {
+    background-color: rgb(243, 236, 234);
+    color: black;
+}
+
+.mysql {
+    background-color: rgb(217, 238, 225);
+    width: 12%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    height: 70px; 
+}
+
+.mysql a {
+    background-color: rgb(217, 238, 225);
+    color: black;
+}
+
+.xml {
+    background-color: rgb(150, 212, 212) ;
+    width: 12%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    height: 70px; 
+}
+
+.xml a {
+    background-color:rgb(150, 212, 212) ;
+    color: black;
+}
+
+.sass {
+    background-color: rgb(255, 192, 199);
+    width: 12%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    height: 70px; 
+}
+
+.sass a {
+    background-color:rgb(255, 192, 199);
+    color: black;
+}
+
+.icons {
+    background-color: rgb(255, 244, 163);
+    width: 12%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    height: 70px; 
+}
+
+.icons a {
+    background-color: rgb(255, 244, 163);
+    color: black;
+}
+
+.rwd {
+    background-color: rgb(243, 236, 234);
+    width: 12%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    height: 70px; 
+}
+
+.rwd a {
+    background-color: rgb(243, 236, 234);
+    color: black;
+}
+
+.graphics {
+    background-color: rgb(217, 238, 225);
+    width: 12%;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    height: 70px; 
+}
+
+.graphics a {
+    background-color: rgb(217, 238, 225);
+    color: black;
+}
+
+
+
+
