@@ -18,10 +18,11 @@ body{
     align-items: center;
     gap: 20px;
     border-radius: 10px;
+
 }
 
 
-/* button {
+button {
     background-color: #1d1f28;
     color: white;
     width: 30%;
@@ -30,7 +31,7 @@ body{
     border: none;
     font-size: 18px;
     width: 200px;
-} */
+}
 a{
     background-color: #1d1f28;
     color: white;
@@ -48,10 +49,10 @@ p {
     font-size: large;
    
 }
-h2 {
+/* h2 {
     font-size: 45px;
     font-weight: 700;
-}
+} */
 .jQuery{
     background-color: rgb(255, 244, 163);
     width: 35%;
@@ -364,7 +365,7 @@ h2 {
     color: black;
 }
 
-.graphics {
+ .graphics {
     background-color: rgb(217, 238, 225);
     width: 12%;
     margin: 40px;
@@ -381,8 +382,9 @@ h2 {
 .graphics a {
     background-color: rgb(217, 238, 225);
     color: black;
-}
+} 
 
+ 
 
 
 

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* div {
+    display: inline;
+}
+h3 {
+    display: inline-block;
+    background-color: aqua;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+p {
+    display: inline;
+} */
+
+button {
+    background-color: rgb(234, 35, 48);
+    width: 100px;
+    padding: 10px;
+    border: none;
+    font-weight: 550;
+}
+
+.card {
+   display: inline-block;
+   width: 20%;
+   margin: 30px 70px;
+}
+
+img {
+    width: 100%;
+}
+p {
+    color: rgb(135, 135, 135);
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
