@@ -1,0 +1,51 @@
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    gap: 20px;
+    width: 55%;
+}
+#img1{
+    position: relative;
+}
+.text1{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: white;
+
+}
+#img2{
+    position: relative;
+}
+.text2{
+    position: absolute;
+    color: white;
+    background: black;
+    padding: 5px;
+    top: 10px;
+    left: 450px;
+     
+}
+#img3{
+    position: relative;
+}
+.text3{
+    position: absolute;
+    color: black;
+    bottom: 330px;
+    left: 30px;
+    color: white;
+
+}
+ #img4{
+    position: relative;
+}
+.text4{
+    position: absolute;
+    color: black;
+    padding: 5px;
+    background-color: white;
+    bottom: 330px;
+    left: 450px;
+} 

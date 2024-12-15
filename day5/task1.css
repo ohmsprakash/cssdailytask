@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+}
+.box {
+    border: 2px solid black;
+    width: 40%;
+    height: 50vh;
+    position: absolute;
+    padding: 10px;
+}
+img {
+     width: 49%;
+     height: 49%;
+}
+#img1{
+    position: relative;  
+    bottom: 100px;
+    right: 100px;
+}
+#img2{
+    position: relative; 
+    bottom: 100px; 
+    left: 100px;
+}
+#img3{
+    position: relative;  
+    right:100px;
+    top:100px;
+}
+#img4{
+    position: relative; 
+    left: 100px;
+    top:100px; 
+}

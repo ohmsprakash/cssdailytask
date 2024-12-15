@@ -1,0 +1,34 @@
+.container{
+    border: 2px solid black;
+    height:50vh;
+    margin: 250px;
+    position: relative;
+    width: 50%;
+}
+.container>div{
+    background-color: black;
+    color: white;
+    width: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+.child1{
+     position: absolute;
+     top: -40px;
+     left: -40px;
+}
+.child2{
+     position: absolute;
+     top: -40px;
+     right: -40px;
+}
+.child3{
+     position: absolute;
+     bottom: -40px;
+     right: -40px;
+}
+.child4{
+     position: absolute;
+     bottom: -40px;
+     left: -40px;
+}
