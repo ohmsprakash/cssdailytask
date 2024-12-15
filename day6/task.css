@@ -47,9 +47,9 @@
 }
 .text2{
     background-color: rgb(216, 253, 210);
-    width: 80px;
+    width: 120px;
     border-radius: 5px;
-    margin-left: 200px;
+    margin-left: 160px;
     text-align: center;
     padding: 5px;
 }
@@ -63,9 +63,9 @@
 }
 .text4{
     background-color: rgb(216, 253, 210);
-    width: 90px;
+    width: 120px;
     border-radius: 5px;
-    margin-left: 190px;
+    margin-left: 160px;
     text-align: center;
     padding: 5px;
 }
