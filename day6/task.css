@@ -39,7 +39,7 @@
 .text1{
     margin-top: 40px;
     background-color: rgb(252, 252, 250);
-    width: 70px;
+    width: 80px;
     border-radius: 5px;
     margin-left: 10px;
     text-align: center;
@@ -55,7 +55,7 @@
 }
 .text3{
     background-color: rgb(252, 252, 250);
-    width: 80px;
+    width: 90px;
     border-radius: 5px;
     margin-left: 10px;
     text-align: center;
@@ -63,9 +63,9 @@
 }
 .text4{
     background-color: rgb(216, 253, 210);
-    width: 80px;
+    width: 90px;
     border-radius: 5px;
-    margin-left: 200px;
+    margin-left: 190px;
     text-align: center;
     padding: 5px;
 }
