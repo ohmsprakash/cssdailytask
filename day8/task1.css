@@ -1,9 +1,16 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 h1{
     border: 2px solid black;
     text-align: center;
     width: 500px;
     margin-bottom: 50px;
-    margin-left: 450px;
+    /* margin-left: 60vh;
+    margin-right: 60vh; */
 }
 .container{
     display: flex;
@@ -38,8 +45,8 @@ div>div {
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }
 .box2:hover{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     font-family: "Dancing Script", serif;
     font-size: 2rem;
 }
@@ -48,8 +55,8 @@ div>div {
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }
 .box3:hover{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     font-family: "Agu Display", serif;
     font-size: 2rem;
 }
@@ -58,8 +65,8 @@ div>div {
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }
 .box4:hover{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     font-family: "Doto", serif;
     font-size: 2rem;
 }
@@ -68,8 +75,8 @@ div>div {
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }
 .box5:hover{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     font-family: "Jacquard 24 Charted", serif;
     font-size: 2rem;
 }
@@ -78,8 +85,8 @@ div>div {
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }
 .box6:hover{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     font-family: "Danfo", serif;
     font-size: 2rem;
 }
@@ -88,8 +95,8 @@ div>div {
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }
 .box7:hover{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     font-family: "Rubik Glitch Pop", serif;
     font-size: 2rem;
 }
@@ -98,8 +105,8 @@ div>div {
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }
 .box8:hover{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     font-family: "Wavefont", serif;
     font-size: 2rem;
 }
@@ -108,8 +115,8 @@ div>div {
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }
 .box9:hover{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     font-family: "Rubik Gemstones", serif;
     font-size: 2rem;
 }
@@ -118,8 +125,8 @@ div>div {
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }
 .box10:hover{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     font-family: "Puppies Play", serif;
     font-size: 2rem;
 }
@@ -128,8 +135,8 @@ div>div {
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }
 .box11:hover{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     font-family: "Stick No Bills", serif;
     font-size: 2rem;
 }
@@ -138,8 +145,8 @@ div>div {
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }
 .box12:hover{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     font-family: "Zen Tokyo Zoo", serif;
     font-size: 2rem;
 }
@@ -148,8 +155,8 @@ div>div {
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }
 .box13:hover{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     font-family: "Oi", serif;
     font-size: 2rem;
 }
@@ -158,8 +165,8 @@ div>div {
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }
 .box14:hover{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     font-family: "Rock 3D", serif;
     font-size: 2rem;
 }
@@ -168,8 +175,8 @@ div>div {
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }
 .box15:hover{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     font-family: "Libre Barcode EAN13 Text", serif;
     font-size: 2rem;
 }
@@ -177,8 +184,44 @@ div>div {
     background-color: rgb(230, 250, 197);
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }.box16:hover{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     font-family: "Major Mono Display", serif;
+    font-size: 2rem;
+}
+.box17{
+    background-color: rgb(230, 250, 197);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}.box17:hover{
+    width: 250px;
+    height: 250px;
+    font-family: "Rubik 80s Fade", serif;
+    font-size: 2rem;
+}
+.box18{
+    background-color: rgb(230, 250, 197);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}.box18:hover{
+    width: 250px;
+    height: 250px;
+    font-family: "Moo Lah Lah", serif;
+    font-size: 2rem;
+}
+.box19{
+    background-color: rgb(230, 250, 197);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}.box19:hover{
+    width: 250px;
+    height: 250px;
+    font-family: "Foldit", serif;
+    font-size: 2rem;
+}
+.box20{
+    background-color: rgb(230, 250, 197);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}.box20:hover{
+    width: 250px;
+    height: 250px;
+    font-family: "Butcherman", serif;
     font-size: 2rem;
 }
