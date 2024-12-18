@@ -1,0 +1,184 @@
+h1{
+    border: 2px solid black;
+    text-align: center;
+    width: 500px;
+    margin-bottom: 50px;
+    margin-left: 450px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 100px;
+    column-gap: 80px;
+    margin-bottom: 50px;
+}
+div>div {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.box1{
+    background-color: rgb(210, 210, 253);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}
+.box1:hover{
+    width: 250px;
+    height: 250px;
+    font-family: "Barrio", serif;
+    font-size: 2rem;
+}
+.box2{
+    background-color: rgb(245, 245, 220);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}
+.box2:hover{
+    width: 300px;
+    height: 300px;
+    font-family: "Dancing Script", serif;
+    font-size: 2rem;
+}
+.box3{
+    background-color: rgb(255, 228, 196);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}
+.box3:hover{
+    width: 300px;
+    height: 300px;
+    font-family: "Agu Display", serif;
+    font-size: 2rem;
+}
+.box4{
+    background-color: rgb(209, 251, 251);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}
+.box4:hover{
+    width: 300px;
+    height: 300px;
+    font-family: "Doto", serif;
+    font-size: 2rem;
+}
+.box5{
+    background-color: rgb(255, 240, 245);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}
+.box5:hover{
+    width: 300px;
+    height: 300px;
+    font-family: "Jacquard 24 Charted", serif;
+    font-size: 2rem;
+}
+.box6{
+    background-color: rgb(210, 210, 253);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}
+.box6:hover{
+    width: 300px;
+    height: 300px;
+    font-family: "Danfo", serif;
+    font-size: 2rem;
+}
+.box7{
+    background-color: rgb(209, 251, 251);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}
+.box7:hover{
+    width: 300px;
+    height: 300px;
+    font-family: "Rubik Glitch Pop", serif;
+    font-size: 2rem;
+}
+.box8{
+    background-color: rgb(255, 182, 193);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}
+.box8:hover{
+    width: 300px;
+    height: 300px;
+    font-family: "Wavefont", serif;
+    font-size: 2rem;
+}
+.box9{
+    background-color: rgb(250, 250, 210);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}
+.box9:hover{
+    width: 300px;
+    height: 300px;
+    font-family: "Rubik Gemstones", serif;
+    font-size: 2rem;
+}
+.box10{
+    background-color: rgb(255, 240, 245);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}
+.box10:hover{
+    width: 300px;
+    height: 300px;
+    font-family: "Puppies Play", serif;
+    font-size: 2rem;
+}
+.box11{
+    background-color: rgb(255, 217, 147);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}
+.box11:hover{
+    width: 300px;
+    height: 300px;
+    font-family: "Stick No Bills", serif;
+    font-size: 2rem;
+}
+.box12{
+    background-color: rgb(207, 225, 248);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}
+.box12:hover{
+    width: 300px;
+    height: 300px;
+    font-family: "Zen Tokyo Zoo", serif;
+    font-size: 2rem;
+}
+.box13{
+    background-color: rgb(255, 228, 196);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}
+.box13:hover{
+    width: 300px;
+    height: 300px;
+    font-family: "Oi", serif;
+    font-size: 2rem;
+}
+.box14{
+    background-color: rgb(245, 245, 220);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}
+.box14:hover{
+    width: 300px;
+    height: 300px;
+    font-family: "Rock 3D", serif;
+    font-size: 2rem;
+}
+.box15{
+    background-color: rgb(209, 251, 251);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}
+.box15:hover{
+    width: 300px;
+    height: 300px;
+    font-family: "Libre Barcode EAN13 Text", serif;
+    font-size: 2rem;
+}
+.box16{
+    background-color: rgb(230, 250, 197);
+    box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
+}.box16:hover{
+    width: 300px;
+    height: 300px;
+    font-family: "Major Mono Display", serif;
+    font-size: 2rem;
+}
