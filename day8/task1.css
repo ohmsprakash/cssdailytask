@@ -9,8 +9,6 @@ h1{
     text-align: center;
     width: 500px;
     margin-bottom: 50px;
-    /* margin-left: 60vh;
-    margin-right: 60vh; */
 }
 .container{
     display: flex;
@@ -27,7 +25,7 @@ div>div {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .box1{
@@ -190,7 +188,7 @@ div>div {
     font-size: 2rem;
 }
 .box17{
-    background-color: rgb(230, 250, 197);
+    background-color: rgb(207, 225, 248);
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }.box17:hover{
     width: 250px;
@@ -199,7 +197,7 @@ div>div {
     font-size: 2rem;
 }
 .box18{
-    background-color: rgb(230, 250, 197);
+    background-color: rgb(255, 182, 193);
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }.box18:hover{
     width: 250px;
@@ -217,7 +215,7 @@ div>div {
     font-size: 2rem;
 }
 .box20{
-    background-color: rgb(230, 250, 197);
+    background-color: rgb(255, 217, 147);
     box-shadow: 10px 10px 10px 2px rgb(119, 113, 113);
 }.box20:hover{
     width: 250px;

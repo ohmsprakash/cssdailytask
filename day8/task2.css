@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(70, 50, 202);
+    height: 12vh;
+    font-weight: 900;
+    color: white;
+}
+
+.item2 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+button {
+    background-color: white;
+    color: rgb(70, 50, 202);
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+}
+.section1{
+    display: flex;
+    padding: 20px;
+}
+img{
+    width: 50%;
+}
+.section1>div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 2rem;
+}
