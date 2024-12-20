@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .section{
+        background-color: aquamarine;
+        height: 100vh;
+        display: grid;
+        /* grid-template-columns: 1fr; */
+        grid-template-columns: repeat(6,100px);
+        grid-template-rows: repeat(6,100px);
+    }
+    div>div{
+        border: 1px solid black;
+    }
+</style>
+<body>
+    <div class="section">
+        <div>Content</div>
+        <div>Content</div>
+        <div>Content</div>
+        <div>Content</div>
+        <div>Content</div>
+        <div>Content</div>
+    </div>
+</body>
+</html>
