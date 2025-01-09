@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            gap: 10px;
+            padding: 10px;
+            background-color: rgb(44, 48, 65);
+        }
+        div>div{
+            border: 2px solid black;
+            padding: 40px;
+        }
+        .child8{
+             grid-column-start: 3;
+             grid-column-end: 6;
+             background-color: rgb(254, 130, 92);
+        }
+        .child9{
+            grid-column-start: 1;
+            grid-column-end: 6;
+            background-color: rgb(52, 219, 186);
+        }
+        .child1,.child7{
+            background-color: rgb(251, 97, 88);
+        }
+        .child2,.child6{
+            background-color: rgb(252, 160, 98);
+        }
+        .child3{
+            background-color: rgb(52, 219, 186);
+        }
+        .child4{
+            background-color: rgb(26, 193, 162);
+        }
+        .child5{
+            background-color: rgb(0, 169, 134);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child1"></div>
+        <div class="child2"></div>
+        <div class="child3"></div>
+        <div class="child4"></div>
+        <div class="child5"></div>
+        <div class="child6"></div>
+        <div class="child7"></div>
+        <div class="child8"></div>
+        <div class="child9"></div>
+    </div>
+</body>
+</html>

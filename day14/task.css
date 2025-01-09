@@ -1,0 +1,53 @@
+div{
+    height: 80vh;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.el1{
+    background-image: url(./technology-images/alltechnologies.png);
+    background-size: 60% 82%;   
+}
+.el2{
+    background-image: url(./technology-images/html.jpg);
+}
+.el3{
+    background-image: url(./technology-images/css.png);
+}
+.el4{
+    background-image: url(./technology-images/JavaScript.png);
+    background-size: 50%;
+   
+}
+.el5{
+    background-image: url(./technology-images/React.png);
+    /* background-position: center center; */
+    background-size: 50%;
+
+   
+}
+.el6{
+    background-image: url(./technology-images/angular.jpg);
+    
+
+}
+.el7{
+    background-image: url(./technology-images/Java.png);
+    background-size: 50%;
+
+}
+.el8{
+    background-image: url(./technology-images/python.png);
+    background-size: 50%;
+  
+}
+.el9{
+    background-image: url(./technology-images/Node.png);
+    background-size: 30% 30%;
+    background-position: 100px;
+}
+.el10{
+    background-image: url(./technology-images/php.jpg);
+    background-size: 30%;
+    background-position: 100px;
+}

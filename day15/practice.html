@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            width: 300px;
+            height: 300px;
+            background: lightsalmon;
+            transition: all;
+            transition-duration: 3s;
+        } */
+        /* div:hover{
+            /* transform: translate(100px, 100px); */
+            /* transform: translateY(300px); */
+            /* transform: rotate(360deg); */
+            /* transform: rotateX(360deg); */
+            /* transform: rotateY(180deg); */
+            /* transform: scale(0.5); */
+            /* transform: scaleX(0.5); */
+            /* transform: scaleY(0.5); */
+            /* transform: scale(1,0.5); */
+       
+
+        /* p{
+            //border: 1px solid lightseagreen;
+            transition-property: all;
+            transition-duration: 0.5s;
+            font-size: 32px;
+        }
+        p:hover{
+            transform: translateX(20px);
+        } */
+
+        /* div{
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+        }
+        .img{
+            transition: all;
+            transition-duration: 3s;
+        }
+        .img:hover{
+            transform: scale(1.5);
+        }
+        .img{
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/037/814/719/small_2x/ai-generated-autumn-leaves-in-the-forest-nature-background-photo.jpg");
+            height: 50vh;
+        } */
+
+        /* div{
+            height: 300px;
+            width: 300px;
+            background-color: lightsalmon;
+            transition: all 2s;
+        } */
+        /* div:hover{ */
+            /* transform: skewX(30deg); */
+            /* transform: skewY(30deg); */
+            /* transform: skew(20deg, 20deg);
+        } */
+
+        img{
+            width: 400px;
+        }
+        div{
+            border: 1px solid red;
+            padding: 20px;
+        }
+        .el1:hover~img{
+            transform: translate(100px);
+            transition: all 2s;
+        }
+        .el2:hover~img{
+            transform: rotate(180deg);
+            transition: all 2s;
+        }
+        .el3:hover~img{
+            transform: scale(1.5);
+            transition: all 2s;
+        }
+        .el4:hover~img{
+            transform: scale(1.2) rotate(10deg) skew(10deg) translate(50px, 30px);
+            transition: all 2s;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div>
+        some content
+    </div>
+
+    <p>some content</p>
+    <p>some content</p>
+    <p>some content</p>
+    <p>some content</p>
+
+    <div>
+        <p class="img"></p>
+    </div> -->
+
+    <div class="el1">translate</div>
+    <div class="el2">rotate</div>
+    <div class="el3">scale</div>
+    <div class="el4">skew</div>
+
+    <img src="https://static.vecteezy.com/system/resources/previews/040/890/255/non_2x/ai-generated-empty-wooden-table-on-the-natural-background-for-product-display-free-photo.jpg">
+
+</body>
+</html>

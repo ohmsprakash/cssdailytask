@@ -1,0 +1,78 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    gap: 40px;
+}
+div{
+    background-color: rgb(203, 126, 126);
+    width: 200px;
+    height: 200px;
+    /* text-align: center; */
+    /* padding: auto,auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all;
+    transition-duration: 3s;
+}
+.el1:hover{
+    transform: translate(100px,100px);
+}
+.el2:hover{
+    transform: translateX(100px);
+}
+.el3:hover{
+    transform: translateX(-100px);
+}
+.el4:hover{
+    transform: translateY(100px);
+}
+.el5:hover{
+    transform: translateY(-100px);
+}
+.el6:hover{
+    transform: scale(1.2);
+}
+.el7:hover{
+    transform: scaleX(1.2);
+}
+.el8:hover{
+    transform: scaleX(0.8);
+}
+.el9:hover{
+    transform: scaleY(1.2);
+}
+.el10:hover{
+    transform: scaleY(0.8);
+}
+.el11:hover{
+    transform: rotateX(360deg);
+}
+.el12:hover{
+    transform: rotateX(-360deg);
+}
+.el13:hover{
+    transform: rotateY(360deg);
+}
+.el14:hover{
+    transform: rotateY(-360deg);
+}
+.el15:hover{
+    transform: rotate(-360deg);
+}
+.el16:hover{
+    transform: skewX(30deg);
+}
+.el17:hover{
+    transform: skewX(-30deg);
+}
+.el18:hover{
+    transform: skewY(30deg);
+}
+.el19:hover{
+    transform: skewY(-30deg);
+}
+.el20:hover{
+    transform: skew(30deg, 30deg);
+}
