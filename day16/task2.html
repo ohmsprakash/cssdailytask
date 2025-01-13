@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+       .ball{
+          background-color: black;
+          width: 50px;
+          height: 50px;
+          margin: 10px;
+          border-radius: 50px;
+          animation: bounce 1.5s infinite ease-in-out;
+       }
+       .ball2 {
+            animation-delay: 0.3s;
+        }
+
+        .ball3{
+            animation-delay: 0.6s;
+        }
+       .bouncing-balls,.loader{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 20px;
+       }
+       .dot{
+        background-color: black;
+        width: 25px;
+        height: 25px;
+        margin: 10px;
+        border-radius: 50px;
+        animation-name: loading;
+        animation-duration: 0.6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: alternate;
+       }
+       .dot2{
+        animation-delay: 0.2s;
+       }
+       .dot3{
+        animation-delay: 0.4s;
+       }
+      @keyframes bounce{
+        0%{
+            transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(-150px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+      }
+      @keyframes loading{
+          to{
+             opacity: 0.3;
+             transform: scale(0.7);
+          }
+      }
+    </style>
+</head>
+<body>
+    <div class="bouncing-balls">
+        <div class="ball"></div>
+        <div class="ball ball2"></div>
+        <div class="ball ball3"></div>
+    </div>
+    <div class="loader">
+        <div class="dot"></div>
+        <div class="dot dot2"></div>
+        <div class="dot dot3"></div>
+    </div>
+</body>
+</html>

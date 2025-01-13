@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            width: 100px;
+            height: 100px;
+            animation-name: colorchange;
+            animation-duration: 8s;
+           animation-delay: 5s; 
+            animation-iteration-count: infinite;
+            animation-fill-mode: both;
+        } */
+        
+
+        /* @keyframes colorchange { */
+            /* from{
+                background-color: red;
+            }
+            to{
+                background-color: yellow;
+            } */
+            /* 0%{
+                background-color: red;
+            }
+            50%{
+                background-color: yellow;
+            }
+            100%{
+                background-color: blue;
+            } */
+            /* 0%{
+                background-color: red;
+                transform: translate(0,0);
+            }
+            33%{
+                background-color: yellow;
+                transform: translate(500px,0);
+            }
+            66%{
+                background-color: blue;
+                transform: translate(500px,500px);
+            }
+            100%{
+                background-color: blueviolet;
+                transform: translate(0,500px);
+            }
+
+        } */
+         div{
+            background: lightcoral;
+            width: 200px;
+            margin: 20px;
+            padding: 20px;
+            animation-name: move;
+            animation-duration: 5s;
+         }
+
+         @keyframes move{
+            from{
+                transform: translate(0,0);
+            }
+            to{
+                transform: translate(1100px,0);
+            }
+         }
+    </style>
+</head>
+<body>
+    <div>some content</div>
+
+    <div style="animation-timing-function: linear;">timing - linear</div>
+    <div style="animation-timing-function: ease-in;">timing - ease-in </div>
+    <div style="animation-timing-function: ease-out;">timing - ease-out</div>
+    <div style="animation-timing-function: ease;">timing- ease</div>
+    <div style="animation-timing-function: ease-in-out;">timing-ease-in-out</div>
+    <div style="animation-timing-function: steps(5);">steps</div>
+    
+</body>
+</html>
